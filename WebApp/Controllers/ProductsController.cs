@@ -33,5 +33,18 @@ namespace WebApp.Controllers
         {
             return await _mediator.Send(command);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Delete(int id)
+        {
+            return await _mediator.Send(new Delete.Command{Id = id});
+        }
+        
+        [HttpPut]
+        public async Task<ActionResult<Unit>> Edit(Edit.Command command)
+        {
+            return await _mediator.Send(command);
+        }
+        
     }
 }
