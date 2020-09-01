@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Application.Products;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -16,15 +17,21 @@ namespace WebApp.Controllers
             _mediator = mediator;
         }
         [HttpGet]
-        public async  Task<IActionResult> GetProductsAsync()
+        public async  Task<ActionResult<IEnumerable<ProductReturnDto>>> GetProductsAsync()
         {
-            return Ok(await _mediator.Send(new List.Query()));
+            return await _mediator.Send(new List.Query());
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetProductByIdAsync(int id)
+        public async Task<ActionResult<ProductReturnDto>> GetProductByIdAsync(int id)
         {
-            return Ok(await _mediator.Send(new Details.Query{Id = id}));
+            return await _mediator.Send(new Details.Query{Id = id});
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> Create(Create.Command command)
+        {
+            return await _mediator.Send(command);
         }
     }
 }

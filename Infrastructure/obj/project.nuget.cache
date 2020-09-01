@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3zFyQgdBZGQEQqPOZv1T573CQPfRTqOZaCMyDU33PuWVj3BhMUayC4gWhrCg+m3ljQDbuzxi+4OWJQOmOef0Pw==",
+  "dgSpecHash": "cF8dT0Qvi15eOpYRxIVKIZSYHRQw6W45K1Mx5kDx8m/ZEM4/HNqPygXm4udijqEiJbc8wD1qSPVwnriNh8zxew==",
   "success": true,
   "projectFilePath": "C:\\Users\\PREDATOR\\RiderProjects\\WebApp\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PREDATOR\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
