@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{6C3257F1-99EF-41B1-A9C5-FE57CA62DC26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Tests", "WebApp.Tests\WebApp.Tests.csproj", "{5D8478BE-E239-4999-A924-200E50A4F2B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{6C3257F1-99EF-41B1-A9C5-FE57CA62DC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C3257F1-99EF-41B1-A9C5-FE57CA62DC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C3257F1-99EF-41B1-A9C5-FE57CA62DC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8478BE-E239-4999-A924-200E50A4F2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8478BE-E239-4999-A924-200E50A4F2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8478BE-E239-4999-A924-200E50A4F2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8478BE-E239-4999-A924-200E50A4F2B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

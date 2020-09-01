@@ -25,17 +25,7 @@ namespace WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddDbContext<DataContext>(opt =>
-            {
-                opt.UseInMemoryDatabase(nameof(DataContext));
-            });
-            services.AddMediatR(typeof(List.Handler).Assembly);
-            services.AddAutoMapper(typeof(List.Handler));
-            services.AddMvc().AddFluentValidation(cfg =>
-            {
-                cfg.RegisterValidatorsFromAssemblyContaining<Create>();
-            });
+            ServiceLocator.ConfigureDependencies(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
