@@ -3,4 +3,7 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::5D8478BE-E239-4999-A924-200E50A4F2B2::.NETCoreApp,Version=v3.1::WebApp.Tests.ProductsControllerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6aedf8db_002D3163_002D443c_002D8dbd_002D84a7c48d46df/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
